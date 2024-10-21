@@ -1,0 +1,586 @@
+html,body{
+    margin:0;
+    padding:0;
+    
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: #132043;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+   
+}
+.navbar .navbar-logo .logo{
+    width: 180px;
+    height: 80px;
+}
+.nav-meni{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-meni .nav-item{
+    display: inline;
+    font-size: 17px;
+    margin: 15px;
+}
+.nav-meni .nav-item a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+.nav-meni .nav-item a:hover{
+    background-color: black;
+}
+.exit-slika{
+    background-image: url('../slike/exit11.jpg');
+    
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exit-slika .exit-pocetna{
+    width: 200px;
+    text-align: center;
+    height: 120px;
+}
+.exit-slika .exit-pocetna h2{
+    text-align: center;
+    color: azure;
+    background-color: black;
+    width: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.pocetna-mid{
+    display: flex;
+}
+.pocetna-mid .split-left{
+    background-color: black;
+    height: 1600px;
+    margin: 0px;
+    width: 60%;
+    
+}
+.pocetna-mid .split-right{
+    background-color: black;
+    height: 1600px;
+    margin: 0px;
+    width: 40%;
+}
+.pocetna-mid .split-left h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+.pocetna-mid .placeholder{
+    display: block;
+    background-color: #132043;
+    border-radius: 20px;
+    height: 200px;
+    width: 650px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.split-right p{
+    color: white;
+    margin: 50px 50px;
+    text-align: justify;
+}
+
+.pocetna-mid  .image{
+    width: 70%;
+    
+}
+.pocetna-mid  .image img{
+    max-width: 350px;
+    float: left;
+    margin-right: 20px;
+    color: white;
+    border-radius: 10px;
+   
+}
+.pocetna-mid  .image2 img{
+    max-width: 350px;
+    float: right;
+    margin-left: 20px;
+    color: white;
+    border-radius: 10px;
+   
+}
+
+.pocetna-mid .text-pocetna h2{
+    font-size: 25px;
+    padding: 10px 10px;
+    color: white;
+    display: flex;
+
+}
+.pocetna-mid .text-pocetna p{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    padding-left: 5px;
+}
+
+
+.onama-slika{
+    background-image: url("../slike/onamaslika.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.about-us{
+    background-color: black;
+    text-align: justify;
+    margin: 0px;
+    justify-content: center; 
+    width: 100%;
+    display: block;
+    height: 1500px;
+    
+}
+.about-us p{
+    margin-left: 240px;
+    margin-right: 250px;
+    padding: 20px;
+    line-height: 1.6;
+    color: white;
+    white-space: normal;
+    font-size: medium;
+   
+}
+.about-us h1{
+    color: azure;
+    text-align: center;
+    display: block;
+    font-weight:bold;
+    margin: 0px auto;
+    padding: 25px;
+}
+.about-us .about-slika{
+    background-image: url("../slike/exitfestival.jpg");
+    height: 400px;
+    background-size: cover;
+    display: block;
+    width:750px;
+    margin: auto;
+    
+}
+.about-us .aboutslika{ 
+    display: block;
+    background-image: url("../slike/exitbina.jpg");
+    height: 400px;
+    background-size: cover;
+    width:750px;
+    margin: auto;
+    
+}
+
+.ulaznice-slika{
+    background-image: url("../slike/ulazniceexit.jpg");
+    background-size: cover;
+    width:100%;
+    height: 500px;
+}
+.ulaznice-mid{
+   background-color: black;
+   height:1000px;
+}
+.ulaznice-mid h1{
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 30px;
+}
+.ulaznice-mid .ulaznice-festivala{
+   margin-top: 0;
+   margin-left: 50px;
+   padding: 20px 50px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.ulaznice p{
+    background-color: darkred;
+    font-weight: bold;
+    font-size: x-large;
+    height: 70px;
+    color: white;
+    text-align: left;
+    width: 220px;
+    border-radius: 15px;
+    display: flex;
+    padding: 40px 30px;
+}
+.ulaznice2{
+    width: 300px;
+}
+
+.ulaznice-mid  .ulaznice2 p{
+    vertical-align: baseline;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    text-align: left;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px 40px;
+}
+.ulaznice-kartica{
+    background-color: azure;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 145px;
+    margin-top: 25px;
+}
+#promo{
+    background-color: red;
+    height: 20px;
+    width: fit-content;
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.ulaznice3 {
+    background-color: azure;
+    border-radius: 15px;
+    width: 200px;
+    height: 70px;
+}
+.button{
+    border: 1px dashed black;
+display: inline-block;
+margin: 15px opx;
+  padding: 55px 50px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: azure;
+  
+}
+
+.gallery-top{
+    background-image: url('../slike/galerijatop.jpg');
+    background-size: cover;
+    height: 500px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-mid{
+    background-color: black;
+    height: 1500px;
+    margin: 0px;
+}
+
+#naslov-galerije{
+    text-align: center;
+    font-weight: bold;
+    color: azure;
+    margin: 0px;
+    padding:30px;
+}
+
+.gallery-mid .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    padding-top: 50px;
+}
+  
+.gallery-mid .row .column {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+ 
+.gallery-mid .row .column img {
+    margin-left: 30px;
+    margin-top: 20px;
+    vertical-align: middle;
+    padding: 5px 6px;
+    max-width: 30%;
+}
+
+.forma-info{
+    width: 100%;
+    height: 1000px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../slike/exit-pozadina.png);
+}
+.forma-info .forma-top{
+    width: 40%;
+    height: 900px;
+    border: 2px solid white;
+    box-shadow: white;
+    background-color: black;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+#glavnip{
+    text-align: center;
+    margin: 20px 150px;
+    color: white;
+    font-weight: bold;
+}
+.forma-info .forma-top p{
+    text-align: left;
+    margin: 20px 20px;
+    color: white;
+    font-weight: bold;
+    
+}
+.input-fields{
+    margin: 30px 150px;
+    text-align: center;
+    display:block;
+}
+
+.input-fields input{
+    width: 250px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius:15px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.input-submit{
+    margin: 0px 10px;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.input-submit:hover{
+    background-color:darkblue;
+    color: white;
+}
+.input-reset{
+    margin: 0px 10px;
+    display: flex;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.input-reset:hover{
+    background-color: darkblue;
+    color: azure;
+}
+.text-box{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 400px;
+ }
+
+ .text-box .left-box{
+    width: 50%;
+    text-align: left;
+    margin: 30px 50px; 
+    font-size: large;
+ }
+ .text-box .right-box{
+    width: 50%;
+    margin-top: 30px;
+    font-size: large;
+ }
+
+ .textbox{
+    background-color: rgb(176, 138, 176);
+    height: 350px;
+ }
+ .textbox p{
+    padding: 20px 50px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+ }
+
+
+.forma-bot .kontakt-info {
+    position: absolute;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    width: 50%;
+}
+.forma-bot{
+    background-color:black;
+    height: 400px;
+    width: 100%;
+}
+
+.forma-bot p{
+   display:block;
+   text-align: left;
+   margin: 15px 0px;
+   color: white;
+   font-weight: bold;
+   background-color: black;
+   background-size: 30px;
+   border-radius: 5px;
+   width: 360px;
+   height: 20px;
+   padding: 10px 10px;
+}
+.forma-bot h2{
+    color: white;
+    height: 30px;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+}
+
+.forma-bot a{
+    display: inline-block;
+    text-align: center;
+    text-decoration:none;
+    color: white;
+    background-color:black;
+    background-size:contain;
+    height: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.forma-bot  .mapa-exita iframe{
+    width: 70%;
+    height: 350px;
+    margin-left: 15%;
+    
+}
+.dno-stranice{
+    width: 100%;
+    height: 130px;
+    background-color:#132043;
+}
+.dno-stranice .kontakt-ikone{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.dno-stranice .kontakt-ikone .ikone i{
+    margin: 0px 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.dno-stranice .kontakt-ikone .ikone i:hover{
+    color: lightblue;
+}
+.dno-stranice img{
+    width: 130px;
+    position: absolute;
+    animation: logo 5s infinite alternate ;
+}
+@keyframes logo {
+    from{
+       left: 0px;
+    }
+    to{
+        left: 47%;
+    }
+}
+.pre-dna{
+    background-color: #030B1D;
+    height: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar .navbar-logo .logo{
+        width: 130px; 
+        height: 60px;
+        display: flex;
+    }
+    .nav-meni{
+        padding-left: 0px;
+    }
+    .nav-meni .nav-item{
+        margin: 0px; 
+    }
+    .nav-meni .nav-item a{
+        padding: 5px 5px; 
+    }
+    .onama-slika{
+        height: 40vh;
+    }
+    .about-us p{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px 5px;
+        font-size: 14px;
+       
+    }
+    .about-us .about-slika{
+    height: 350px;
+    width: 100%;
+    margin: 0px;
+    }
+    .about-us .aboutslika{
+    height: 350px;
+    width:100%;
+     margin: 0px;
+    }
+    .gallery-top{
+        height: 40vh; 
+    }
+    .gallery-mid{
+        height: auto; 
+    }
+    #naslov-galerije{
+        padding: 15px; 
+    }
+    .gallery-mid .row .column img{
+        max-width: 100%; 
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 5px;
+        display: flex;
+
+    }
+    .dno-stranice img{
+        width: 100px; 
+    }
+
+}
+
